@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<meta charset="UTF-8">
+<title>サンプルページ | サイト名</title>
+<meta name="description" content="サイトの説明文">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="あなたのサイトURL">
+<link rel="icon" type="image/png" href="ファビコンのパス" />
+<!-- OGP設定 -->
+<meta property="og:type" content="article" />
+<meta property="og:url" content="あなたのサイトURL" />
+<meta property="og:image" content="SNSで表示させたい画像のパス" />
+<meta property="og:site_name" content="サイト名" />
+<meta property="og:description" content="サイトの説明文" />
+<!-- Facebook用設定 -->
+<meta property="fb:app_id" content="facebookのApp ID" />
+<meta property="article:publisher" content="FacebookページのURL">
+<!-- Twitter用設定 -->
+<meta name="twitter:card" content="Twitterカードの種類">
+<meta name="twitter:site" content="@ユーザー名">
+<!-- スタイルシートはここから -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="d-md-flex justify-content-between">
+    <header class="flex-grow-1">
+        <h1 class="py-3 px-5 text-center"><a href="../index.html"><img src="../img/logo-mark.png" alt="logo"></a></h1>
+        <nav class="navbar navbar-expand-lg bg-info navbar-info mb-3">
+            <button type="button" class="navbar-toggler mod-ham-btn" data-toggle="collapse" data-target="#Navber" aria-controls="Navber" aria-expanded="false" aria-label="ナビゲーションの切替"> <span class=""><i class="fas fa-bars h1 py-0 my-0"></i></span>
+            <p class="py-0 my-0 text-dark h6">MENU</p>
+            </button>
+            <div class="collapse navbar-collapse w-100 py-4" id="Navber">
+                <ul class="navbar-nav nav-justified mr-auto d-block d-md-none">
+                    <li class="nav-item"><a href="#" class="nav-link text-white mr-3">会員登録</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white mr-3">ログイン／マイページ</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white mr-3">ほしい物リストを⾒る</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white mr-3">カートを⾒る<span class="badge badge-pill badge-light">0</span></a></li>
+                </ul>
+                <ul class="h1 navbar-nav nav-justified flex-column mx-auto">
+                    <li class="nav-item text-center"> <a class="nav-link text-white" href="#"> <i class="fas fa-gift"></i><span class="h5 d-block">カテゴリ</span> </a></li>
+                    <li class="nav-item"> <a class="nav-link text-white" href="#"> <i class="fas fa-tshirt"></i><span class="h5 d-block">カテゴリ</span> </a></li>
+                    <li class="nav-item"> <a class="nav-link text-white" href="#"> <i class="fas fa-shopping-bag"></i><span class="h5 d-block">カテゴリ</span> </a></li>
+                    <li class="nav-item"> <a class="nav-link text-white" href="#"> <i class="fas fa-ribbon"></i><span class="h5 d-block">カテゴリ</span> </a></li>
+                    <li class="nav-item text-white">･･･</li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse --> 
+        </nav>
+    </header>
+    
+    <!--=============================================================================== -->
+    <main class="w-100">
+        <div class="container-fluid"> 
+            <!--=============================================================================== --> 
+            
+            <!-- 右上メニュー部分 -->
+            <div class="mb-3 text-right d-none d-md-block"> <a href="#" class="mr-3 h6 font-weight-bold">会員登録</a> <a href="#" class="mr-3 h6 font-weight-bold">ログイン／マイページ</a> <a href="#" class="mr-3 h6 font-weight-bold">ほしい物リストを⾒る</a>
+                <button type="button" class="btn btn-info py-3 rounded-0">カートを⾒る<span class="badge badge-pill badge-light ml-2">0</span> <span class="sr-only">数</span> </button>
+            </div>
+            <!--=============================================================================== --> 
+            <!-- パンくずリスト-->
+            <nav aria-label="パンくずリスト">
+                <ol class="breadcrumb bg-white border-top border-bottom mb-5 rounded-0">
+                    <li class="breadcrumb-item"><a href="../index.html">ホーム</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">サンプルページ</li>
+                </ol>
+            </nav>
+            
+            <!--=============================================================================== -->
+            <h2 class="font-weight-bold">コンテンツタイトル</h2>
+            <p class="lead">サブタイトルが⼊ります。サブタイトルが⼊ります。サブタイトルが⼊ります。</p>
+            <section class="py-3">
+                <div class="row pr-md-0">
+                    <div class="col-lg-6"><img src="../img/sample_780x780.jpg" alt="" class="card w-100 shadow-sm mb-3 pr-md-0">
+                        <div class="row">
+                            <div class="col-6 col-md-4"> <a href="#" class="card shadow-sm mb-3"><img src="../img/sample_640x640.jpg" alt="" class="w-100"></a> </div>
+                            <div class="col-6 col-md-4"> <a href="#" class="card shadow-sm mb-3"><img src="../img/sample_640x640.jpg" alt="" class="w-100"></a> </div>
+                            <div class="col-6 col-md-4"> <a href="#" class="card shadow-sm mb-3"><img src="../img/sample_640x640.jpg" alt="" class="w-100"></a> </div>
+                            <div class="col-6 col-md-4"> <a href="#" class="card shadow-sm mb-3"><img src="../img/sample_640x640.jpg" alt="" class="w-100"></a> </div>
+                            <div class="col-6 col-md-4"> <a href="#" class="card shadow-sm mb-3"><img src="../img/sample_640x640.jpg" alt="" class="w-100"></a> </div>
+                            <div class="col-6 col-md-4"> <a href="#" class="card shadow-sm mb-3"><img src="../img/sample_640x640.jpg" alt="" class="w-100"></a> </div>
+                        </div>
+                    </div>
+                    <!--=============================================================================== -->
+                    <div class="col-lg-6">
+                        <p class="mb-3 p-2 border">カテゴリが⼊ります</p>
+                        <h3 class="mb-3 font-weight-bold">商品名が⼊ります</h3>
+						<p class="h5">商品番号 T50957/H-799</p>
+                        <p class="h5">250ポイント還元</p>
+                        <h4 class="font-weight-bold">price ¥918 <span class="h6">（税込）</span></h4>
+                        <p class="card-text mb-3">親譲りの無鉄砲で⼩供の時から損ばかりしている。⼩学校に居る時分学校の⼆階から⾶び降りて⼀週間</p>
+                        <div class="mb-3">
+						<i class="fas fa-heart mr-2"></i><span class="mr-2">609</span> <i class="fas fa-comment-alt mr-2"></i><span>120</span>
+						</div>
+						<form class="form-inline mb-3">
+  <label class="my-1 mr-2" for="inlineFormCustomSelect">数量</label>
+  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelect">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+  </select>
+  <input type="button" value="カートに入れる" class="btn btn-info btn-lg">
+                        </form>
+						
+                        <div> <a class="btn btn-outline-info btn-lg d-block font-weight-bold mb-2" href="../contact/index.html" role="button">商品に関するお問い合わせ</a>
+							<a class="btn btn-outline-info btn-lg d-block font-weight-bold mb-2" href="../contact/index.html" role="button">ショップに関するお問い合わせ</a>
+							<a class="btn btn-outline-info btn-lg d-block font-weight-bold" href="#" role="button">欲しいものリストに追加</a> </div>
+                        <table class="table mt-4 text-nowrap table-bordered">
+                            <tr>
+                                <th scope="col">⾊</th>
+                                <th scope="col">在庫</th>
+                                <th scope="col">説明</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>〇</td>
+                                <td>Thornton</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td class="h3 font-weight-normal">×</td>
+                                <td>freebies</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>〇</td>
+                                <td>freebies</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <!--/.row--> 
+            </section>
+        </div>
+        <!--/.container-fluid--> 
+        <!--=============================================================================== -->
+        <div class="container no-gutters"> 
+            
+            <!--=============================================================================== --> 
+            <!-- この商品を購⼊された⽅のレビュー -->
+            <section class="py-5">
+                <h3 class="h4 font-weight-bold border-bottom pb-2 mb-3">この商品を購⼊された⽅のレビュー</h3>
+
+<form class="form-row mb-5">
+                    <div class="form-group col-12 col-lg-8">
+    <textarea class="form-control w-100 h-100" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-group col-12 col-lg-4">
+							<div class="d-block mb-3"><a href="#"><i class="fas fa-share-alt-square fa-2x mr-2 img-sns"></i></a>
+							<a href="#"><i class="fas fa-share-alt-square fa-2x mr-2 img-sns"></i></a>
+							</div>	
+                        <input type="button" value="コメントする" class="btn btn-info btn-lg">
+                    </div>
+                </form>
+				
+                <div>
+                	<p class="h5 mb-3">総合評価<span class="h3 mx-2">★★★★★</span>５</p>
+                	<h4 class="font-weight-bold">コメントタイトルが⼊ります</h4>
+                	<p class="mb-3"><span class="mr-2">〇〇　〇〇さん　30代/女性</span><i class="fas fa-clock mr-2"></i>YYYY/MM/DD</p>
+                	<p class="mb-3">親譲りの無鉄砲で⼩供の時から損ばかりしている。⼩学校に居る時分学校の⼆階から⾶び降りて⼀週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く⼈があるかも知れぬ。別段深い理由でもない。新築の⼆階から⾸を出していたら、同級⽣の⼀⼈が冗談に、いくら威張っても、そこから⾶び降りる事は出来まい</p>
+                </div>
+                
+                <div class="media bg-info rounded p-4">
+  <div class="text-center border rounded p-2 mr-2">
+    <i class="fas fa-user-alt fa-2x text-white"></i>
+  </div>
+  <div class="media-body">
+     <div class="d-sm-flex justify-content-between">
+                            <h5 class="h6 font-weight-bold">ショップオーナーからの返信</h5>
+                            <p class="text-right"><i class="fas fa-clock mr-2"></i>１時間前</p>
+                        </div>
+    <p class="font-weight-normal">親譲りの無鉄砲で⼩供の時から損ばかりしている。⼩学校に居る時分学校の⼆階から⾶び降りて⼀週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く⼈があるかも知れぬ。別段深い理由でもない。新築の⼆階から⾸を出していたら、同級⽣の⼀⼈が冗談に、いくら威張っても、そこから⾶び降りる事は出来まい。弱⾍やーい。と囃したからである。</p>
+  </div><!-- /.media-body -->
+</div><!-- /.media -->
+
+            </section>
+            <!--=============================================================================== --> 
+            <!-- この商品を⾒た⼈はこの商品も⾒ています -->
+            <section class="container py-5">
+                <h3 class="h4 font-weight-bold border-bottom pb-2 mb-md-5">この商品を⾒た⼈はこの商品も⾒ています</h3>
+                <div class="row">
+					
+                    <div class="col-6 col-lg-3">
+                        <div class="card border-0 px-3 mb-4">
+							<img class="card-img-top rounded-circle border shadow-sm" src="../img/item-1.jpg" alt="カードの画像1">
+                            <div class="card-body text-center px-0">
+                                <h4 class="card-title font-weight-bold">商品名が⼊ります</h4>
+                                <div class="card-text">
+									<h5>price ¥918 <span class="small text-muted">（税込）</span></h5>
+								<a href="#" class="btn btn-success" role="button">この商品をみる</a>
+                            </div>
+                        </div>
+                    </div>
+					</div>	
+					<div class="col-6 col-lg-3">
+                        <div class="card border-0 px-3 mb-4">
+							<img class="card-img-top rounded-circle border shadow-sm" src="../img/item-2.jpg" alt="カードの画像1">
+                            <div class="card-body text-center px-0">
+                                <h4 class="card-title font-weight-bold">商品名が⼊ります</h4>
+                                <div class="card-text">
+									<h5>price ¥918 <span class="small text-muted">（税込）</span></h5>
+								<a href="#" class="btn btn-success" role="button">この商品をみる</a>
+                            </div>
+                        </div>
+                    </div>
+					</div>	
+					<div class="col-6 col-lg-3">
+                        <div class="card border-0 px-3 mb-4">
+							<img class="card-img-top rounded-circle border shadow-sm" src="../img/item-3.jpg" alt="カードの画像1">
+                            <div class="card-body text-center px-0">
+                                <h4 class="card-title font-weight-bold">商品名が⼊ります</h4>
+                                <div class="card-text">
+									<h5>price ¥918 <span class="small text-muted">（税込）</span></h5>
+								<a href="#" class="btn btn-success" role="button">この商品をみる</a>
+                            </div>
+                        </div>
+                    </div>
+					</div>	
+					<div class="col-6 col-lg-3">
+                        <div class="card border-0 px-3 mb-4">
+							<img class="card-img-top rounded-circle border shadow-sm" src="../img/item-4.jpg" alt="カードの画像1">
+                            <div class="card-body text-center px-0">
+                                <h4 class="card-title font-weight-bold">商品名が⼊ります</h4>
+                                <div class="card-text">
+									<h5>price ¥918 <span class="small text-muted">（税込）</span></h5>
+								<a href="#" class="btn btn-success" role="button">この商品をみる</a>
+                            </div>
+                        </div>
+                    </div>
+					</div>	
+					<div class="col-6 col-lg-3">
+                        <div class="card border-0 px-3 mb-4">
+							<img class="card-img-top rounded-circle border shadow-sm" src="../img/item-1.jpg" alt="カードの画像1">
+                            <div class="card-body text-center px-0">
+                                <h4 class="card-title font-weight-bold">商品名が⼊ります</h4>
+                                <div class="card-text">
+									<h5>price ¥918 <span class="small text-muted">（税込）</span></h5>
+								<a href="#" class="btn btn-success" role="button">この商品をみる</a>
+                            </div>
+                        </div>
+                    </div>
+					</div>	
+					<div class="col-6 col-lg-3">
+                        <div class="card border-0 px-3 mb-4">
+							<img class="card-img-top rounded-circle border shadow-sm" src="../img/item-2.jpg" alt="カードの画像1">
+                            <div class="card-body text-center px-0">
+                                <h4 class="card-title font-weight-bold">商品名が⼊ります</h4>
+                                <div class="card-text">
+									<h5>price ¥918 <span class="small text-muted">（税込）</span></h5>
+								<a href="#" class="btn btn-success" role="button">この商品をみる</a>
+                            </div>
+                        </div>
+                    </div>
+					</div>	
+					<div class="col-6 col-lg-3">
+                        <div class="card border-0 px-3 mb-4">
+							<img class="card-img-top rounded-circle border shadow-sm" src="../img/item-3.jpg" alt="カードの画像1">
+                            <div class="card-body text-center px-0">
+                                <h4 class="card-title font-weight-bold">商品名が⼊ります</h4>
+                                <div class="card-text">
+									<h5>price ¥918 <span class="small text-muted">（税込）</span></h5>
+								<a href="#" class="btn btn-success" role="button">この商品をみる</a>
+                            </div>
+                        </div>
+                    </div>
+					</div>	
+					<div class="col-6 col-lg-3">
+                        <div class="card border-0 px-3 mb-4">
+							<img class="card-img-top rounded-circle border shadow-sm" src="../img/item-4.jpg" alt="カードの画像1">
+                            <div class="card-body text-center px-0">
+                                <h4 class="card-title font-weight-bold">商品名が⼊ります</h4>
+                                <div class="card-text">
+									<h5>price ¥918 <span class="small text-muted">（税込）</span></h5>
+								<a href="#" class="btn btn-success" role="button">この商品をみる</a>
+                            </div>
+                        </div>
+                    </div>
+					</div>	
+                </div>
+            </section>
+        </div>
+        <!--=============================================================================== -->
+        <hr>
+        <!--=============================================================================== --> 
+        <!-- フッターナビ -->
+        <footer class="container no-gutters">
+            <div class="py-4">
+            <div class="d-md-flex justify-content-between">
+                <div class="mb-4">
+                    <ul class="list-unstyled">
+                        <li class="mb-3">取扱いサービス
+                            <ul class="list-unstyled pl-2">
+                                <li><a href="#">新商品</a></li>
+                                <li><a href="#">商品⼀覧</a></li>
+                            </ul>
+                        </li>
+                        <li>採⽤情報
+                            <ul class="list-unstyled pl-2">
+                                <li><a href="#">新卒採⽤</a></li>
+                                <li><a href="#">キャリア採⽤</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mb-4">
+                    <ul class="list-unstyled">
+                        <li><a href="#">ご注⽂の流れ</a></li>
+                        <li><a href="#">お⽀払い⽅法について</a></li>
+                        <li><a href="#">配送料について</a></li>
+                        <li><a href="#">商品のお届け⽇</a></li>
+                        <li><a href="#">ラッピング</a></li>
+                        <li><a href="#">返品・交換について</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="mb-4">
+                    <ul class="list-unstyled">
+                        <li><a href="#">お知らせ</a></li>
+                        <li><a href="#">サイトマップ</a></li>
+                        <li><a href="#">個⼈情報の取扱い</a></li>
+                        <li><a href="#">特定商取引法に基づく表記</a></li>
+                    </ul>
+                </div>
+                <hr class="d-block d-lg-none p-0 my-5">
+				<div class="mb-4">
+                <img src="../img/logo.png" alt="" class="w-75 mb-4">
+                    <adress>
+                        <h4 class="font-weight-bold">店舗名：SAMPLE SHOP</h4>
+                        <p class="">営業時間：9:00〜18:00<br>
+                            休⽇：⼟⽇祝、他（GW、夏期、年末等）<br>
+                            住所：東京都港区芝8丁目0-0 ビジネスビル1F<br>
+                            E-mail：info@example.com<br>
+                            URL：http://example.com<br>
+                            電話番号：03-1234-5678（代表）<br>
+                            お電話でのご注⽂も受け付けております。</p>
+                    </adress>
+                </div>
+            </div>
+            
+            <!-- sns アイコン -->
+            <div><a href="http://twitter.com/share?url=あなたのサイトURL&amp;text=エンコードした説明文" onclick="window.open(this.href, 'twitter_tweet', 'width=550, height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1'); return false;"><i class="fas fa-share-alt-square fa-2x mr-2 img-sns"></i></a><a href="https://www.facebook.com/sharer/sharer.php?u=あなたのサイトURL" onclick="window.open(this.href, 'fb_window', 'width=450, height=300, menubar=no, toolbar=no, scrollbars=yes'); return false;" target="blank"><i class="fas fa-share-alt-square fa-2x mr-2 img-sns"></i></a> <a href="https://www.instagram.com/あなたのサイトURL" target="blank"><i class="fas fa-share-alt-square fa-2x mr-2 img-sns"></i></a></div>
+                </div>        </footer>
+    </main>
+</div>
+<!--=============================================================================== -->
+<div class="container-fluid bg-light">
+    <div class="container position-relative py-4">
+        <p class="text-right mb-0 pr-5">20×× &copy; あなたのサイト名</p>
+        <div class="totop position-absolute text-center py-1 px-2 bg-white"><a href="#"><i class="fas fa-arrow-up fa-2x text-info"></i></a></div>
+    </div>
+</div>
+<!--=============================================================================== --> 
+<!-- javascript はここから --> 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

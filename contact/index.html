@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<meta charset="UTF-8">
+<title>お問い合わせページ | サイト名</title>
+<meta name="description" content="サイトの説明文">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="あなたのサイトURL">
+<link rel="icon" type="image/png" href="ファビコンのパス" />
+<!-- OGP設定 -->
+<meta property="og:type" content="article" />
+<meta property="og:url" content="あなたのサイトURL" />
+<meta property="og:image" content="SNSで表示させたい画像のパス" />
+<meta property="og:site_name" content="サイト名" />
+<meta property="og:description" content="サイトの説明文" />
+<!-- Facebook用設定 -->
+<meta property="fb:app_id" content="facebookのApp ID" />
+<meta property="article:publisher" content="FacebookページのURL">
+<!-- Twitter用設定 -->
+<meta name="twitter:card" content="Twitterカードの種類">
+<meta name="twitter:site" content="@ユーザー名">
+<!-- スタイルシートはここから -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="d-md-flex justify-content-between">
+    <header class="flex-grow-1 mb-3">
+        <h1 class="py-3 px-5 text-center"><a href="../index.html"><img src="../img/logo-mark.png" alt="logo"></a></h1>
+        <nav class="navbar navbar-expand-lg bg-info navbar-info mb-3">
+            <button type="button" class="navbar-toggler mod-ham-btn" data-toggle="collapse" data-target="#Navber" aria-controls="Navber" aria-expanded="false" aria-label="ナビゲーションの切替"> <span class=""><i class="fas fa-bars h1 py-0 my-0"></i></span>
+            <p class="py-0 my-0 text-dark h6">MENU</p>
+            </button>
+            <div class="collapse navbar-collapse w-100 py-4" id="Navber">
+                <ul class="navbar-nav nav-justified mr-auto d-block d-md-none">
+                    <li class="nav-item"><a href="#" class="nav-link text-white mr-3">会員登録</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white mr-3">ログイン／マイページ</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white mr-3">ほしい物リストを⾒る</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white mr-3">カートを⾒る<span class="badge badge-pill badge-light">0</span></a></li>
+                </ul>
+                <ul class="h1 navbar-nav nav-justified flex-column mx-auto">
+                    <li class="nav-item text-center"> <a class="nav-link text-white" href="#"> <i class="fas fa-gift"></i><span class="h5 d-block">カテゴリ</span> </a></li>
+                    <li class="nav-item"> <a class="nav-link text-white" href="#"> <i class="fas fa-tshirt"></i><span class="h5 d-block">カテゴリ</span> </a></li>
+                    <li class="nav-item"> <a class="nav-link text-white" href="#"> <i class="fas fa-shopping-bag"></i><span class="h5 d-block">カテゴリ</span> </a></li>
+                    <li class="nav-item"> <a class="nav-link text-white" href="#"> <i class="fas fa-ribbon"></i><span class="h5 d-block">カテゴリ</span> </a></li>
+                    <li class="nav-item text-white">･･･</li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse --> 
+        </nav>
+    </header>
+    
+    <!--=============================================================================== -->
+    <main class="w-100">
+        <div class="container-fluid"> 
+            <!--=============================================================================== --> 
+            
+            <!-- 右上メニュー部分 -->
+            <div class="mb-3 text-right d-none d-md-block"> <a href="#" class="mr-3 h6 font-weight-bold">会員登録</a> <a href="#" class="mr-3 h6 font-weight-bold">ログイン／マイページ</a> <a href="#" class="mr-3 h6 font-weight-bold">ほしい物リストを⾒る</a>
+                <button type="button" class="btn btn-info py-3 rounded-0">カートを⾒る<span class="badge badge-pill badge-light ml-2">0</span> <span class="sr-only">数</span> </button>
+            </div>
+            <!--=============================================================================== --> 
+            <!-- パンくずリスト-->
+            <nav aria-label="パンくずリスト">
+                <ol class="breadcrumb bg-white border-top border-bottom mb-5 rounded-0">
+                    <li class="breadcrumb-item"><a href="../index.html">ホーム</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">お問い合わせページ</li>
+                </ol>
+            </nav>
+        </div>
+        <!--/.container-fluid--> 
+        
+        <!--=============================================================================== -->
+        
+        <div class="container no-gutters"> 
+            
+            <!--=============================================================================== -->
+            <h2 class="font-weight-bold">お問い合わせフォーム</h2>
+            <p class="lead">サブタイトルが⼊ります。サブタイトルが⼊ります。サブタイトルが⼊ります。</p>
+            <!--=============================================================================== --> 
+            <!-- この商品を購⼊された⽅のレビュー -->
+            <section class="py-5">
+                <form action="" method="post">
+                    <div class="form-group row border-bottom border-top m-0 py-3">
+                        <label for="inputEmail" class="col-sm-2 col-form-label">お名前</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="⼊⼒してください">
+                        </div>
+                    </div>
+                    <div class="form-group row border-bottom m-0 py-3">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">メールアドレス</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="⼊⼒してください">
+                        </div>
+                    </div>
+                    <div class="form-group row border-bottom m-0 py-3">
+                        <label for="select" class="col-sm-2 col-form-label">お問い合わせ種類</label>
+                        <div class="col-sm-10">
+                            <select class="form-control" id="select">
+                                <option selected>選択してください</option>
+                                <option value="1">タイトル１</option>
+                                <option value="2">タイトル２</option>
+                                <option value="3">タイトル３</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row border-bottom m-0 py-3">
+                        <label for="textarea" class="col-sm-2 col-form-label">お問い合わせ内容</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" rows="7" id="textarea" placeholder="⼊⼒してください"></textarea>
+                        </div>
+                    </div>
+                    <fieldset class="form-group border-bottom m-0 py-3">
+                        <div class="row">
+                            <legend class="col-form-label col-sm-2 pt-0">返信について</legend>
+                            <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="gridRadios1"> 返信はいらない </label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                    <label class="form-check-label" for="gridRadios2"> 返信が欲しい </label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="form-group row align-items-center text-center text-sm-right py-4">
+                        <div class="form-check col-sm-6 mb-2 pt-2 text-center text-sm-right">
+                            <input class="form-check-input" type="checkbox" id="check">
+                            <label class="form-check-label" for="check"> <a href="#">個⼈情報の取扱い</a>に同意 </label>
+                        </div>
+                        <div class="text-center col-sm-6 mb-2 text-sm-left">
+                            <input type="submit" class="btn btn-danger btn-lg font-weight-bold" value="送信する">
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <!--=============================================================================== -->
+        <hr>
+        <!--=============================================================================== --> 
+        <!-- フッターナビ -->
+        <footer class="container no-gutters">
+            <div class="py-4">
+                <div class="d-md-flex justify-content-between">
+                    <div class="mb-4">
+                        <ul class="list-unstyled">
+                            <li class="mb-3">取扱いサービス
+                                <ul class="list-unstyled pl-2">
+                                    <li><a href="#">新商品</a></li>
+                                    <li><a href="#">商品⼀覧</a></li>
+                                </ul>
+                            </li>
+                            <li>採⽤情報
+                                <ul class="list-unstyled pl-2">
+                                    <li><a href="#">新卒採⽤</a></li>
+                                    <li><a href="#">キャリア採⽤</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mb-4">
+                        <ul class="list-unstyled">
+                            <li><a href="#">ご注⽂の流れ</a></li>
+                            <li><a href="#">お⽀払い⽅法について</a></li>
+                            <li><a href="#">配送料について</a></li>
+                            <li><a href="#">商品のお届け⽇</a></li>
+                            <li><a href="#">ラッピング</a></li>
+                            <li><a href="#">返品・交換について</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="mb-4">
+                        <ul class="list-unstyled">
+                            <li><a href="#">お知らせ</a></li>
+                            <li><a href="#">サイトマップ</a></li>
+                            <li><a href="#">個⼈情報の取扱い</a></li>
+                            <li><a href="#">特定商取引法に基づく表記</a></li>
+                        </ul>
+                    </div>
+                    <hr class="d-block d-lg-none p-0 my-5">
+                    <div class="mb-4"> <img src="../img/logo.png" alt="" class="w-75 mb-4">
+                        <adress>
+                            <h4 class="font-weight-bold">店舗名：SAMPLE SHOP</h4>
+                            <p class="">営業時間：9:00〜18:00<br>
+                                休⽇：⼟⽇祝、他（GW、夏期、年末等）<br>
+                                住所：東京都港区芝8丁目0-0 ビジネスビル1F<br>
+                                E-mail：info@example.com<br>
+                                URL：http://example.com<br>
+                                電話番号：03-1234-5678（代表）<br>
+                                お電話でのご注⽂も受け付けております。</p>
+                        </adress>
+                    </div>
+                </div>
+                
+                <!-- sns アイコン -->
+                <div><a href="http://twitter.com/share?url=あなたのサイトURL&amp;text=エンコードした説明文" onclick="window.open(this.href, 'twitter_tweet', 'width=550, height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1'); return false;"><i class="fas fa-share-alt-square fa-2x mr-2 img-sns"></i></a><a href="https://www.facebook.com/sharer/sharer.php?u=あなたのサイトURL" onclick="window.open(this.href, 'fb_window', 'width=450, height=300, menubar=no, toolbar=no, scrollbars=yes'); return false;" target="blank"><i class="fas fa-share-alt-square fa-2x mr-2 img-sns"></i></a> <a href="https://www.instagram.com/あなたのサイトURL" target="blank"><i class="fas fa-share-alt-square fa-2x mr-2 img-sns"></i></a></div>
+            </div>
+        </footer>
+    </main>
+</div>
+<!--=============================================================================== -->
+<div class="container-fluid bg-light">
+    <div class="container position-relative py-4">
+        <p class="text-right mb-0 pr-5">20×× &copy; あなたのサイト名</p>
+        <div class="totop position-absolute text-center py-1 px-2 bg-white"><a href="#"><i class="fas fa-arrow-up fa-2x text-info"></i></a></div>
+    </div>
+</div>
+<!--=============================================================================== --> 
+<!-- javascript はここから --> 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
